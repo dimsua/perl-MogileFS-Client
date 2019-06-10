@@ -22,7 +22,7 @@ mogilefs tracker and domain. This object may then be used to store and
 retrieve content easily from MogileFS.
 
 %prep
-%setup -q -n perl-MogileFS-Client-%{version}
+%setup -q -n MogileFS-Client-%{version}
 
 %build
 %{__perl} Makefile.PL INSTALLDIRS=vendor
