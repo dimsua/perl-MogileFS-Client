@@ -13,6 +13,7 @@ BuildRequires:  perl(IO::WrapTie)
 BuildRequires:  perl(LWP::UserAgent)
 BuildRequires:  perl(ExtUtils::MakeMaker)
 BuildRequires:  perl(Test::More)
+BuildRequires:  perl(Time::HiRes)
 Requires:       perl(:MODULE_COMPAT_%(eval "`%{__perl} -V:version`"; echo $version))
 
 %description
